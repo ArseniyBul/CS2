@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+header h1 {
+    font-weight: 400;
+    font-size: 20px;
+    color: #000;
+    text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    font-family: "Audiowide";
+    font-weight:bolder;
+    text-align: center;
+    
+}
+
+.tech {
+    font-weight: 400;
+    font-size: 20px;
+    color: #000;
+    text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    font-family: "Audiowide";
+    font-weight: bolder;
+    width: 198px;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: block;
+}
+
+.text1 {
+    font-weight: 400;
+    font-size: 20px;
+    color: #000;
+    text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    font-family: "Audiowide";
+    font-weight:bolder;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+
+.text2 {
+    font-weight: 400;
+    font-size: 20px;
+    color: #000;
+    text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    font-family: "Audiowide";
+    font-weight:bolder;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.text3 {
+    font-weight: 400;
+    font-size: 20px;
+    color: #000;
+    text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    font-family: "Audiowide";
+    font-weight:bolder;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.text4 {
+    font-weight: 400;
+    font-size: 20px;
+    color: #000;
+    text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    font-family: "Audiowide";
+    font-weight: bolder;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.text5 {
+    font-weight: 400;
+    font-size: 20px;
+    color: #000;
+    text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    font-family: "Audiowide";
+    font-weight: bolder;
+    text-align: left;
+    margin-left: 20px;
+}
+
+
+.btn {
+    border-radius: 64px;
+    background-image: linear-gradient(180deg, #ca6c0e 33.85%, #643507 84.62%);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+    border: 2px solid #000;
+    font-family: "Audiowide";
+    display: flex;
+    margin:10px auto;
+    width: 132px;
+    height: 65px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    cursor: pointer;
+
+}
+
+
+.kartinka1 {
+    border: 2px solid #000;
+    border-radius: 95px;
+    width: 282px;
+    height: 120px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    display: flex;
+    margin-left: 20px;
+    margin-top: -40px;
+}
+
+.kartinka2 {
+    border: 2px solid #000;
+    width: 188px;
+    height: 182px;
+    border-radius: 65px;
+    display: flex;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: -90px;
+}
+
+.kartinka3{ 
+    width: 42px;
+    height: 42px;
+    
+}
+
+.kartinka4 {
+    border: 2px solid #000;
+    border-radius: 107px;
+    width: 405px;
+    height: 214px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+body {
+    margin: auto;
+}
+
+header {
+    background: linear-gradient(338deg, #643507 0%, #ca6c0e 47.22%, #fff 100%);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    margin: 0 auto;
+    text-align: center;
+    width: 555px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+footer {
+    background: linear-gradient(210deg, #643507 0%, #ca6c0e 42.8%, #fff 86.83%);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    margin: auto;
+    text-align: left;
+    width: 555px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+main {
+    margin: auto;
+    text-align: center;
+    width: 550px;
+    border: 2px solid whitesmoke;
+    background-color: white;
+}
+
+html {
+    background-color: #000;
+}
+
+.btn-explore1 {
+    display: flex;
+}
+
+.kit3 {
+    margin-top: -20px;
+    
+}
+
+.kit4 {
+    margin-top: -20px;
+}
+
+.btn-explore2 {
+    margin-top: -40px;
+    margin-bottom: 40px;
+}
+
+.btn-download{ 
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.a {
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+.b {
+   margin-right: 20px;
+   
+}
+
+.c {
+    margin-right: 20px;
+   
+}
+
+
+
+.stroka2 {
+    display: none;
+}
+
+.stroka1 {
+    display: block;
+}
+
+.picture {
+    transform: none;
+    cursor: pointer;
+    box-shadow: none;
+    transition-duration: .2s;
+}
+
+.picture:hover {
+    box-shadow: 2px 2px 5px 2px #b6b6b6;
+    transform: scale(1.05) rotate(5deg);
+    transition-duration: .2s;
+}
+
+.picture:active {
+    transition-property: box-shadow, transform;
+    box-shadow: none;
+    transform: none;
+}
+
+.btn:hover {
+    background: rgb(246, 141, 3);
+    box-shadow: 0 0 5px .5px gray;
+}
+
+.btn:active {
+    background:#ca6c0e;
+    -boxshadow: none;
+}
+
+.mini {
+    cursor: pointer;
+    transform: none;
+    box-shadow: none;
+    transition-duration: .1.5s;
+}
+
+.mini:hover {
+    box-shadow: 2px 2px 5px 2px #f87502;
+    transform: scale(1.05) rotate(0deg);
+    transition-duration: .2s;
+}
+
+.mini:active {
+    transition-property: box-shadow, transform;
+    box-shadow: none;
+    transform: none;
+}
