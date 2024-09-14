@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
 
+
 header h1 {
     font-weight: 400;
     font-size: 20px;
@@ -8,7 +9,6 @@ header h1 {
     font-family: "Audiowide";
     font-weight:bolder;
     text-align: center;
-    
 }
 
 .tech {
@@ -272,4 +272,48 @@ html {
     transition-property: box-shadow, transform;
     box-shadow: none;
     transform: none;
+}
+
+@media (max-width: 450px) {
+    .text {
+        font-size: 15px;
+        width: 75%;
+    }
+    .picture {
+        width: 160px;
+        height: 100px;
+    }
+    .btn {
+        width: 130px;
+        height: 60px;
+        margin-left: 190px;
+    }
+    .tech {
+        font-size: 15px;    
+    }
+    .cs {
+        font-size: 15px;
+    }
+    .mini{
+        width: 30px
+    }
+    .btn-explore2 {
+        margin-top: -10px;
+    }
+    .kartinka2 {
+        margin-top: auto;
+        height: 150px;
+    }
+    body {
+        width: 50%;
+    }
+    main {
+        width: 150%;
+    }
+    header {
+        width: 150%;
+    }
+    footer {
+        width: 150%;
+    }
 }
