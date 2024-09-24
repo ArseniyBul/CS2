@@ -1,5 +1,78 @@
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
 
+.gradient-text {
+  transition: all 1s ease;
+  color: #7794ff;
+  background-color: #7794ff;
+  background: -o-linear-gradient(left, #140651 10%, #114537, #44107a, #7794ff);
+  background: -webkit-linear-gradient(
+    left,
+    #140651 10%,
+    #114537,
+    #44107a,
+    #7794ff
+  );
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.gradient-text.text1 {
+  -webkit-animation: dancingColors 10s infinite forwards ease-in-out;
+  animation: dancingColors 10s infinite forwards ease-in-out;
+  margin-bottom: 5%;
+}
+.gradient-text.text2 {
+  -webkit-animation: dancingColors 10s -0.5s infinite forwards ease-in-out;
+  animation: dancingColors 10s -0.5s infinite forwards ease-in-out;
+}
+.gradient-text.text3 {
+    -webkit-animation: dancingColors 10s -0.5s infinite forwards ease-in-out;
+    animation: dancingColors 10s -0.5s infinite forwards ease-in-out;
+  }
+
+  
+.gradient-text.text5 {
+    -webkit-animation: dancingColors 10s -0.5s infinite forwards ease-in-out;
+    animation: dancingColors 10s -0.5s infinite forwards ease-in-out;
+  }
+  
+
+@media screen and (min-width: 0\0) {
+  /* IE9 and IE10 hack */
+  .gradient-text {
+    background: transparent;
+  }
+}
+
+@-moz-document url-prefix() {
+
+  .gradient-text {
+    background-color: transparent;
+  }
+}
+
+@-webkit-keyframes dancingColors {
+  50% {
+      background: -webkit-linear-gradient(left, #114537, #44107A, #7794ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    background-position: -860px;
+  }
+}
+
+@keyframes dancingColors {
+  50% {
+     background: -webkit-linear-gradient(left, #114537, #44107A, #7794ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    background-position: -860px;
+  }
+}
+
 
 header h1 {
     font-weight: 400;
@@ -274,6 +347,18 @@ html {
     transform: none;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 450px) {
     .text {
         font-size: 15px;
@@ -317,3 +402,5 @@ html {
         width: 150%;
     }
 }
+
+
